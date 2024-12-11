@@ -1,5 +1,20 @@
 # Airbean Analysis
 
+# Innehållsförteckning
+
+1. [Olika flöden](#olika-flöden)
+   - Del-flöden
+   - Huvudflöde
+2. [Kundbeteenden](#kundbeteenden)
+3. [Avgränsningar och egna tolkningar](#avgränsningar-och-egna-tolkningar)
+4. [Analys av datalogiska delprocesser](#analys-av-datalogiska-delprocesser)
+   - Decomposition (Bryta ner)
+   - Pattern Recognition (Mönsterigenkänning)
+   - Abstraction
+   - Algorithm Design (Utforma algoritmer)
+5. [Sammanfattning](#sammanfattning)
+
+
 ## Olika flöden: 
 
 ### Del-flöden:
