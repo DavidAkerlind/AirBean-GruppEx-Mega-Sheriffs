@@ -1,2 +1,149 @@
-# AirBean-GruppEx-Mega-Sheriffs
-README
+# Airbean Analysis
+
+## Funktioner och tjänster
+
+Airbean erbjuder en innovativ och användarvänlig tjänst för att beställa kaffe
+via en webapp. Nedan följer en översikt av de centrala funktionerna:
+
+### Funktioner:
+
+-   Leverans med drönare.
+-   Välja kaffesort.
+-   Navigera i meny.
+-   Logga in.
+-   Skapa konto.
+-   Kolla orderstatus.
+-   Se orderhistorik.
+-   Lägga en beställning.
+-   Anpassa leveranstid.
+-   Ta del av erbjudanden, nyheter och information.
+-   Visa artiklar i kundvagnen när det läggs till.
+-   Enkel gästbeställningsprocess.
+-   Prenumerationstjänst.
+-   Informationssida med information om kaffet.
+-   Minimera val och steg.
+
+### Del-flöden:
+
+1. **Beställning**:
+
+    - Visa menyn.
+    - Välja kaffesort och extra val.
+    - Visa att artiklar läggs till i kundvagnen.
+    - Öppna kundvagnen och bekräfta order (adress, betalning m.m.).
+
+2. **Leverans**:
+
+    - Beställning skickas till Airbean.
+    - Kaffet bryggs och packas i drönare.
+    - Drönaren levererar ordern till kundens adress.
+
+3. **Orderstatus**:
+
+    - Öppna navigationen.
+    - Visa aktuell orderstatus och leveranstid.
+
+4. **Användarhantering**:
+
+    - Logga in eller skapa konto.
+    - Enkelt beställa som gäst utan konto.
+
+5. **Orderhistorik**:
+
+    - Öppna navigationen.
+    - Gå till profil och visa orderhistorik.
+
+6. **Informationssida**:
+    - Visa detaljerad information om kaffet och hållbarhet.
+
+---
+
+## Huvudflöde
+
+Airbean förenklar användarupplevelsen med ett tydligt och logiskt
+beställningsflöde:
+
+1. Kunden väljer kaffesort/er, storlek och extra val.
+2. Kunden fyller i leveransadress.
+3. Kunden betalar via Bank-ID, Swish eller Klarna.
+4. Beställningen skickas till Airbean.
+5. Kaffet packas och drönaren designeras.
+6. Ordern levereras till kundens adress.
+
+---
+
+## Kundbeteenden
+
+Vid analys av kundbeteenden identifierades följande viktiga faktorer:
+
+-   **Lättnavigerat**:
+    -   Navigera till menyn från alla sidor.
+-   **Bekräftelse av pågående beställning**:
+    -   Information om att beställningen är på väg och leveranstid.
+-   **Få klick till beställning**:
+    -   Halv-automatisk tjänst med minimal interaktion.
+-   **Ekologisk profil**:
+    -   Grafisk design med naturinspirerade färger och hållbarhet.
+-   **Analyserade preferenser**:
+    -   Mest köpta kaffe visas högst i menyn.
+-   **Leveranstid**:
+    -   Tydlig information om när kaffet förväntas levereras.
+-   **Återkommande order**:
+    -   Sparar personlig information för snabbare framtida beställningar.
+-   **Avbrutna order**:
+    -   Möjlighet att pausa eller ångra beställning.
+-   **Support**:
+    -   Chatt eller telefonnummer vid problem.
+-   **Beställningstoppar**:
+    -   Hantering av hög belastning under frukost och fika.
+
+---
+
+## Analys av datalogiska delprocesser
+
+Projektet analyserades utifrån de fyra datalogiska delprocesserna:
+**Decomposition**, **Pattern Recognition**, **Abstraction** och **Algorithm
+Design**.
+
+### Decomposition (Bryta ner)
+
+Vi delade upp projektet i hanterbara delar:
+
+-   Huvudfunktioner: Landningssida, meny, varukorg, betalningsflöde,
+    orderstatus, orderhistorik, och informationssida.
+-   Flöden: Beställning, leverans, och användarhantering.
+
+### Pattern Recognition (Mönsterigenkänning)
+
+-   **Återkommande flöden**:
+    -   Alla användare följer samma beställningsprocess.
+-   **Produktinformation**:
+    -   Standardiserad presentation av produkter.
+-   **Återkommande behov**:
+    -   Funktioner som snabb navigering och sparade preferenser.
+
+### Abstraction (Abstrahera)
+
+-   Fokuserade på kärnfunktioner som beställning, betalning och orderstatus.
+-   Undvek detaljer kring drönarhantering och tekniska backend-lösningar.
+
+### Algorithm Design (Utforma algoritmer)
+
+Flödet för beställning:
+
+1. Start: Användaren landar på sidan.
+2. Navigera till menyn.
+3. Välj kaffe och lägg till i kundvagnen.
+4. Granska kundvagnen och fyll i leveransadress.
+5. Välj betalningsmetod och bekräfta order.
+6. Visa orderstatus med leveranstid.
+
+---
+
+## Sammanfattning
+
+-   **Decomposition** hjälpte till att bryta ner projektet i funktionella delar.
+-   **Pattern Recognition** identifierade gemensamma beteenden och förenklade
+    designen.
+-   **Abstraction** fokuserade på användarvänliga kärnfunktioner.
+-   **Algorithm Design** skapade ett effektivt och logiskt beställningsflöde.
