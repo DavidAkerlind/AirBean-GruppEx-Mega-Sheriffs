@@ -107,8 +107,6 @@ Design**.
 
 ### Decomposition (Bryta ner)
 
-Vi delade upp projektet i hanterbara delar:
-
 -   Huvudfunktioner: Landningssida, meny, varukorg, betalningsflöde,
     orderstatus, orderhistorik, och informationssida.
 -   Flöden: Beställning, leverans, och användarhantering.
@@ -122,10 +120,10 @@ Vi delade upp projektet i hanterbara delar:
 -   **Återkommande behov**:
     -   Funktioner som snabb navigering och sparade preferenser.
 
-### Abstraction (Abstrahera)
+### Abstraction
 
 -   Fokuserade på kärnfunktioner som beställning, betalning och orderstatus.
--   Undvek detaljer kring drönarhantering och tekniska backend-lösningar.
+-   Undvek små detaljer kring drönarhantering och tekniska "backend-lösningar".
 
 ### Algorithm Design (Utforma algoritmer)
 
@@ -141,9 +139,3 @@ Flödet för beställning:
 ---
 
 ## Sammanfattning
-
--   **Decomposition** hjälpte till att bryta ner projektet i funktionella delar.
--   **Pattern Recognition** identifierade gemensamma beteenden och förenklade
-    designen.
--   **Abstraction** fokuserade på användarvänliga kärnfunktioner.
--   **Algorithm Design** skapade ett effektivt och logiskt beställningsflöde.
