@@ -1,27 +1,6 @@
 # Airbean Analysis
 
-## Funktioner och tjänster
-
-Airbean erbjuder en innovativ och användarvänlig tjänst för att beställa kaffe
-via en webapp. Nedan följer en översikt av de centrala funktionerna:
-
-### Funktioner:
-
--   Leverans med drönare.
--   Välja kaffesort.
--   Navigera i meny.
--   Logga in.
--   Skapa konto.
--   Kolla orderstatus.
--   Se orderhistorik.
--   Lägga en beställning.
--   Anpassa leveranstid.
--   Ta del av erbjudanden, nyheter och information.
--   Visa artiklar i kundvagnen när det läggs till.
--   Enkel gästbeställningsprocess.
--   Prenumerationstjänst.
--   Informationssida med information om kaffet.
--   Minimera val och steg.
+## Olika flöden: 
 
 ### Del-flöden:
 
@@ -56,9 +35,8 @@ via en webapp. Nedan följer en översikt av de centrala funktionerna:
 6. **Informationssida**:
     - Visa detaljerad information om kaffet och hållbarhet.
 
----
 
-## Huvudflöde
+### Huvudflöde
 
 Airbean förenklar användarupplevelsen med ett tydligt och logiskt
 beställningsflöde:
@@ -99,19 +77,25 @@ Vid analys av kundbeteenden identifierades följande viktiga faktorer:
 
 ---
 
-## Analys av datalogiska delprocesser
+### Avgränsningar egna tolkningar
+
+
+
+---
+
+# Analys av datalogiska delprocesser
 
 Projektet analyserades utifrån de fyra datalogiska delprocesserna:
 **Decomposition**, **Pattern Recognition**, **Abstraction** och **Algorithm
 Design**.
 
-### Decomposition (Bryta ner)
+## Decomposition (Bryta ner)
 
 -   Huvudfunktioner: Landningssida, meny, varukorg, betalningsflöde,
     orderstatus, orderhistorik, och informationssida.
 -   Flöden: Beställning, leverans, och användarhantering.
 
-### Pattern Recognition (Mönsterigenkänning)
+## Pattern Recognition (Mönsterigenkänning)
 
 -   **Återkommande flöden**:
     -   Alla användare följer samma beställningsprocess.
@@ -120,9 +104,9 @@ Design**.
 -   **Återkommande behov**:
     -   Funktioner som snabb navigering och sparade preferenser.
 
-### Abstraction
+## Abstraction
 
- **Funktioner**:
+ ###Funktioner:
 
 -   Leverans med drönare.
 -   Välja kaffesort.
@@ -140,8 +124,14 @@ Design**.
 -   Informationssida med information om kaffet.
 -   Minimera val och steg.
 
-### Algorithm Design (Utforma algoritmer)
+## Algorithm Design (Utforma algoritmer)
 
+Lite olika algoritmer som man skulle kunna använda i en app som AirBean för att öka användarvänligheten men också själva leveransen och lönsamheten.
+
+- **FIFO-algoritm**: Hanterar inkommande beställningar och levererar dem i ordning de kom in, vilket säkerställer effektiv orderhantering.
+- **Dijkstra/A*-algoritm**: Optimera drönarens rutt för att hitta den snabbaste och mest effektiva vägen till kunden.
+- **Rekommendationsalgoritmer**: Analyserar användarens preferenser för att föreslå produkter baserat på tidigare val och andra användares beteenden.
+- **Observer-pattern**: Ger realtidsuppdateringar om beställningens status, såsom när den är packad eller på väg.
 ---
 
 ## Sammanfattning
