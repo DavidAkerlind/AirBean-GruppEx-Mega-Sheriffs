@@ -122,19 +122,7 @@ Design**.
 
 ### Abstraction
 
--   Fokuserade på kärnfunktioner som beställning, betalning och orderstatus.
--   Undvek små detaljer kring drönarhantering och tekniska "backend-lösningar".
-
 ### Algorithm Design (Utforma algoritmer)
-
-Flödet för beställning:
-
-1. Start: Användaren landar på sidan.
-2. Navigera till menyn.
-3. Välj kaffe och lägg till i kundvagnen.
-4. Granska kundvagnen och fyll i leveransadress.
-5. Välj betalningsmetod och bekräfta order.
-6. Visa orderstatus med leveranstid.
 
 ---
 
