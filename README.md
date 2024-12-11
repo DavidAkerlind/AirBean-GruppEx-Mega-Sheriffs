@@ -122,6 +122,24 @@ Design**.
 
 ### Abstraction
 
+- **Funktioner**:
+-Leverans med drönare.
+-Välja kaffesort.
+-Navigera i meny.
+-Logga in.
+-Skapa konto.
+-Kolla orderstatus.
+-Se orderhistorik.
+-Lägga en beställning.
+-Anpassa leveranstid.
+-Ta del av erbjudanden, nyheter och information.
+-Visa artiklar i kundvagnen när det läggs till.
+-För gästanvändare skapa enkel gästbeställingsprocess.
+-Prenumerationstjänst.
+-Informationsida: med information om kaffet.
+-Minimera val och steg
+
+
 ### Algorithm Design (Utforma algoritmer)
 
 ---
