@@ -186,12 +186,6 @@ Design**.
 
 ## Algorithm Design (Utforma algoritmer)
 
-Lite olika algoritmer som man skulle kunna använda i en app som AirBean för att öka användarvänligheten men också själva leveransen och lönsamheten.
-
-- **FIFO-algoritm**: Hanterar inkommande beställningar och levererar dem i ordning de kom in, vilket säkerställer effektiv orderhantering.
-- **Dijkstra/A*-algoritm**: Optimera drönarens rutt för att hitta den snabbaste och mest effektiva vägen till kunden.
-- **Rekommendationsalgoritmer**: Analyserar användarens preferenser för att föreslå produkter baserat på tidigare val och andra användares beteenden.
-- **Observer-pattern**: Ger realtidsuppdateringar om beställningens status, såsom när den är packad eller på väg.
 ---
 
 ## Sammanfattning
