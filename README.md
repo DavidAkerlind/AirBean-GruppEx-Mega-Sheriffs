@@ -118,9 +118,8 @@ Design**.
     -   Standardiserad presentation av produkter.
 -   **Återkommande behov**:
     -   Funktioner som snabb navigering och sparade preferenser.
-    -   
-   # Kundbeteenden
 
+### Kund beteenden
 - **Lättnavigerat**  
   Navigera till menyn från alla sidor.
   
