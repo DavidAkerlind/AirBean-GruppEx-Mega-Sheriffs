@@ -118,6 +118,52 @@ Design**.
     -   Standardiserad presentation av produkter.
 -   **Återkommande behov**:
     -   Funktioner som snabb navigering och sparade preferenser.
+    -   
+   # Kundbeteenden
+
+- **Lättnavigerat**  
+  Navigera till menyn från alla sidor.
+  
+- **Bekräftelse av pågående beställning**  
+  Information om att beställning är på väg och beräknad leveranstid.
+  
+- **“Halv-automatisk tjänst”**  
+  Få klick till beställning.
+  
+- **Klimatsmart och ekologisk tjänst**  
+  Grafisk design med natur, löv och mjuka färger.
+  
+- **Analysera användarpreferenser**  
+  Mest köpta kaffet visas högst upp i listan/menyn.
+  
+- **Uppmärksamhet på leveranstid**  
+  Tydligt alternativ i menyn för när kaffet förväntas komma.
+  
+- **Återkommande order**  
+  Personlig information lagras för snabbare framtida beställningar.
+  
+- **Kunden ångrar sig**  
+  Möjlighet att pausa eller avbryta en beställning.
+  
+- **Problem under beställning**  
+  Tillgång till chatt eller telefonnummer för support.
+  
+- **Återkommande tidpunkter för köp (frukost, fika)**  
+  Hantering av beställningstoppar under populära tidpunkter.
+
+---
+
+# Funktioner / Tjänster
+
+- **Liknande beställningstjänster finns redan**  
+  Igenkänning av funktioner och navigering.
+
+- **Betalningsfunktioner**  
+  Använd existerande system som Bank-ID, Swish och Klarna.
+
+- **Inloggningstjänster**  
+  Stöd för Google, Facebook och Bank-ID.
+
 
 ## Abstraction
 
